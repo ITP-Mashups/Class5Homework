@@ -10,7 +10,7 @@ var app = {
 
 	//Define a function to execute the AJAX call
 	//The argument will be the desired search term
-	hitApi: function(word) {
+	hitApi: function() {
 		*/
 		$.ajax({
 			url: app.apiURL

@@ -1,11 +1,55 @@
 html{
+	width: 1280;
 	margin: 0;
 	padding: 0;
-	background-color: white;
+	background-image: bkg;
 	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
 	font-size: 16px;
+
 }
 
-.wikiResults{
+.header{
+	width: 400px;
+    padding: 10px;
+    border: 0px;
+    margin: 600; 
+    position: absolute;
+       bottom: 50%;
+       right: 35%;
+
+}
+
+.mmResults{ 
 	font-size: 24px;
+}
+
+.container1{
+	float: left;
+	width: 1200px;
+	text-align: left;
+	color: #f4a95e;
+	border: 0px solid white;
+	position: absolute;
+		bottom: 35%;
+		left: 24%;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.container2 {
+	position: absolute;
+		bottom: 29%;
+		left: 44%;
+
+}	
+
+.box {
+	width: 620px;
+	text-align: left;
+	color: #f4a95e;
+	border: 0px solid white;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
 }

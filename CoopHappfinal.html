@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>Cooper-Hewitt Collection</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<h2>Cooper-Hewitt Collection Search</h2>
+		<input id="query" type="text" placeholder="enter year here"></input>
+		<button class="aButton" id="search" data-apiTerm="1990">ENTER </button>
+	
+		<div id="images"></div>
+
+		<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="CoopHappfinal.js"></script>
+		<script>
+			//Code to be executed once the page has fully loaded
+			$(document).ready(function(){
+				console.log("LOADED!!!!");
+				app.initialize();
+			});		
+		</script>
+	</body>
+</html>
+

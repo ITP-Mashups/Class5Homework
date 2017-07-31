@@ -1,11 +1,31 @@
 html{
 	margin: 0;
-	padding: 0;
+	padding: 10%;
 	background-color: white;
-	font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
-	font-size: 16px;
+	font-family: 'Georgia', Georgia, serif;
+	font-size: 8px;
 }
 
-.wikiResults{
-	font-size: 24px;
+img{
+	display: block;
+	max-width: 50%;
+	margin: auto;
+	height: auto;
+	 -webkit-filter: drop-shadow(10px 10px 10px black); /* Safari 6.0 - 9.0 */
+    filter: drop-shadow(10px 10px 10px black);
 }
+
+.flickr-box{
+	float: right;
+	width: auto;
+	height: auto;
+	text-align: left;
+}
+
+.flickr-box2{
+	float: right;
+	width: auto;
+	height: auto;
+	text-align: right;
+}
+
